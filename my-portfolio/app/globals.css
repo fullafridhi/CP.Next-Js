@@ -1,0 +1,236 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+   --background-start-rgb: 214, 219, 220;
+  --background-end-rgb:    
+  --background-image: url('/bckgrd.jpg')
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background: linear-gradient(rgba(var(--background-start-rgb), 0.5), rgba(var(--background-end-rgb), 0.5)),
+              var(--background-image);
+  color: rgb(var(--foreground-rgb));
+}
+/* styles/globals.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  
+  
+}
+
+.background-image{
+  background-image: url(
+  'https://tse1.mm.bing.net/th?id=OIP.nc-QV4QwJXjicTVUe3TMwwHaDt&pid=Api&P=0&h=220');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  background-color: transparent; /* Set background to transparent */
+
+}
+
+
+
+.welcom {
+  background-color: transparent;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.nav {
+  margin-top: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #080808;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: rgba(144, 135, 135, 0.5);
+  transition: background-color 0.3s;
+}
+
+.nav a:hover {
+  background-color: rgba(151, 149, 149, 0.7);
+}
+
+/* styles/about.css */
+
+.portfolio-card {
+    background-image: url(
+      'https://tse1.mm.bing.net/th?id=OIP.nc-QV4QwJXjicTVUe3TMwwHaDt&pid=Api&P=0&h=220');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    
+}
+
+
+.profile-image {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.approach {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(244, 194, 14);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* styles Contact css */
+
+.contact {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-image: url(
+'https://tse1.mm.bing.net/th?id=OIP.nc-QV4QwJXjicTVUe3TMwwHaDt&pid=Api&P=0&h=220');
+  background-size: cover;
+  height: 100vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #a16f13;
+  margin-bottom: 10px;
+}
+
+p {
+  color: rgb(251, 246, 246);
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-area {
+  margin-bottom: 15px;
+}
+
+.input-area input,
+.input-area textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-area input:focus,
+.input-area textarea:focus {
+  border-color: #0070f3; 
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+.sendbtn {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #69a5ea; 
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sendbtn:hover {
+  background-color: #005bb5; 
+}
+/* 
+css project */
+
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-image: url(
+    'https://tse1.mm.bing.net/th?id=OIP.nc-QV4QwJXjicTVUe3TMwwHaDt&pid=Api&P=0&h=220');
+  background-size: cover;
+  height: 100vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.projectList {
+  list-style-type: none;
+  padding: 10;
+}
+.title{
+  color:#a16f13
+}
+
+h4{
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.card {
+  /* background-color: white; */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 15px 0;
+  padding: 15px;
+ 
+}
